@@ -71,7 +71,7 @@ mkdir -p ckpts
 # Step 6: Hauptmodell via git lfs holen
 if [ ! -d "ckpts/hunyuan-video-t2v-720p" ]; then
   echo "📥 Lade Hauptmodell via Git LFS..."
-  git lfs clone https://huggingface.co/Tencent/HunyuanVideo ckpts/hunyuan-video-t2v-720p
+  git lfs clone https://huggingface.co/Tencent/HunyuanVideo ckpts/
 fi
 
 # ----------------------------------------
